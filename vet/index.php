@@ -81,7 +81,7 @@ $comments = $pdo->query("SELECT hc.*, h.name AS habitat_name, u.username AS vet_
         <?php endforeach; ?>
     </ul>
 
-    <a class="btn btn-danger mt-3" href="../logout.php">Se déconnecter</a>
+    <a class="btn btn-danger mt-3" href="../public/logout.php">Se déconnecter</a>
 </div>
 </body>
 </html>

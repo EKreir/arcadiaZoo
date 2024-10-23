@@ -25,7 +25,7 @@
                     <a class="nav-link" href="dashboard.php">Dashboard</a>
                 </li>
                 <li>
-                    <a class="btn btn-danger" href="../logout.php">Se déconnecter</a>
+                    <a class="btn btn-danger" href="../public/logout.php">Se déconnecter</a>
                 </li>
             </ul>
         </div>

@@ -42,10 +42,10 @@ $avis = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <body>
 <div class="container">
     <h1>Espace Employé</h1>
-    <a class="btn btn-primary mt-3" href="modifier_services.php">Modifier les Services</a>
+    <a class="btn btn-primary mt-3" href="modifier_services.php">Modifier les services</a>
     <a class="btn btn-primary mt-3" href="enregistrer_consommation.php"">Consommation animal</a>
-    <a class="btn btn-primary mt-3" href="messages_contact.php">Voir les Messages de Contact</a>
-    <a class="btn btn-danger mt-3" href="../logout.php">Se déconnecter</a>
+    <a class="btn btn-primary mt-3" href="messages_contact.php">Mails reçus</a>
+    <a class="btn btn-danger mt-3" href="../public/logout.php">Se déconnecter</a>
     <h2>Avis des Visiteurs</h2>
 
     <?php if (isset($_SESSION['success_message'])): ?>
